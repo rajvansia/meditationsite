@@ -1,0 +1,355 @@
+
+<style type="text/css">
+    @import 'https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css';
+@import 'https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+@import 'http://fonts.googleapis.com/css?family=Raleway:100,600';
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:300';
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #999;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 20px 0;
+  text-transform: none;
+  color: rgba(254, 82, 76, 1);
+  font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+
+a:link,
+a:active{
+  color:rgba(255,255,255,1);
+}
+
+a:hover{
+  color:rgba(255,255,255,0.6);
+}
+
+.gray {
+  color: #a5a5a5;
+}
+
+.team{
+  margin:40px;
+}
+
+.team-member {
+  margin: 15px 0;
+  padding: 0;
+}
+
+.team-member figure {
+  position: relative;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+.team-member figure img {
+  min-width: 100%;
+}
+
+.team-member figcaption p {
+  font-size: 10px;
+}
+
+.team-member figcaption ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.team-member figcaption ul {
+  visibility: visible;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  -o-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.team-member figcaption ul li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.team-member h4 {
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+.team-member figcaption {
+  padding: 50px;
+  color: transparent;
+  background-color: transparent;
+  position: absolute;
+  z-index: 996;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption {
+  visibility: visible;
+  color: #fff;
+  background: rgba(230, 78, 62, 0.9);
+  /* Primary color, can be changed via colors.css */
+  
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.team-member figure:hover figcaption ul li a:hover {
+  color: rgba(49, 49, 49, .97);
+}
+
+.team-member figure img {
+  -webkit-transform: scale(1) rotate(0) translateY(0);
+  -moz-transform: scale(1) rotate(0) translateY(0);
+  -o-transform: scale(1) rotate(0) translateY(0);
+  -ms-transform: scale(1) rotate(0) translateY(0);
+  transform: scale(1) rotate(0) translateY(0);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.img-responsive, .thumbnail a>img, .thumbnail>img {
+    display: block;
+    height: 330px;
+}
+.team-member figure:hover img {
+  -webkit-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -moz-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -o-transform: scale(1.1) rotate(1deg) translateY(12px);
+  -ms-transform: scale(1.1) rotate(1deg) translateY(12px);
+  transform: scale(1.1) rotate(1deg) translateY(12px);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+</style>
+<!-- Our team Section -->
+<section id="team" class="team content-section">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h2>Our Team</h2>
+        <h3 class="caption gray">Meditators On A Mission</h3>
+      </div><!-- /.col-md-12 -->
+
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="https://lh3.googleusercontent.com/wD3d3lSlGTRR4QxFR48XHOwUXdjfwXeVkMrEWo0oGYSWp7YG2_MmkSh3nlFOUzbcL65b78zkYRO0QjS_z_MYkm0NsxJIEDuEdUQrlTMn-NwZ_31888a9HlSlkHJ4ioFM6F4LU1FIMcqCCh32egQs299dznRyx_nz5zNMI6gSiVO24SMgMYM2DOL0kSKhRyetf4OJq4nj6JiaFGA9On4RlVL9goY_BQbmsVkiIhV0r-_uyOBmguO656czsGW4eOtl1AV5Uis4c4b8k1Lzg5Fq7bNzpW83bqljrfKGKUYTxwk4HpO-lCpTbh5qYyUf3oPa1OnetUn2tReBWRj2UZ8oekK4c99NDMyE9RfAHuErRxWOZgW6sy7KNUQ96dWK11tL2IsOvTjqUIxhNK4ByE-BmbCqZxelyDnZYzpdcb02A-eHGZNnDN7xFK9gyhiDvUfRB22xKQCDuTCmslt5_Zb0DPb0pBJBBjYWcPxxaeWtNW8S9tUQ3WcusgI6ME1FdQdMUpFZlkzKbjcV2U6kO1MNnxICbzrwZGgng9YW15MzSnM=w552-h599-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Joia is a professional mind­body fitness instructor, floral designer and the founder
+
+of The Meditation Advance. Her first experience with meditation happened quite
+
+by accident at age 4, but she has practiced "formally" ever since college. She is
+
+fascinated by all the recent scientific research on meditation and loves exploring
+
+different techniques to find what is most effective for different individuals. Joia
+
+holds a M.Phil. degree from NYU in English and American Literature, but she also
+
+pursued interdisciplinary research as a lab assistant in Neuroscience. Aesthetic
+
+Beauty + Biology ­­ that is her passion!</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4> Joia Houheneka </h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="https://lh3.googleusercontent.com/vaRI8FHzN9RFcjiuAN9luDdnFeM0U8B6bp9F0E-DTx9Ym7h2ahhTqQcLpT95OAr0frp6UckmZHp_Z7wodg3zMFkN87SSvZ1lkCyS5Up_2WhEnxE9Zw_7EMrvtRXoxMexaZFvXACyzJFmUATwbLDtn0dhiBYpTM0EmVHc2bVLRWiWMm9QfFkGSzxZpaXyKTsbnub18-SM7G8GTOVS7jfLSHn5jFCiNnT3_9GtxT9LLu9wZ-fBAGNO3Fd--2fh73oahtjJsM0_6Vh8mwco6xNtNZ5KxV1ybwsvsbbadUoCkz4OEXNQ_tnDZBftn2LWxOANonrqRNxYVgPhDiprHdsxBCo6lVUf7NNtclulEh4-fFmH143KU-Fg8KEeMLYgrClJHpXRtvc1ETclm04UkNf1br5t3KD7RuKhxja0MPQLv6V_v4aALB6lEAWLChW1uBo8QVlttx6LS_3d9Rc7V7SWo79_s-x4LYke_4DKxtwYCqK1KGmp6ZO359yeVDr94r2EB_1kLfVhKJgOVWwhivdxWk8gJG4Y0YfhXShK5z7Gqdo=w504-h599-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Bill Pagano is a certified instructor in Taoist Meditation, Tai Chi Chuan, Qigong and Ba Gua
+
+Zhang. He has been a student and practitioner of the internal martial arts since 1990, and Sifu,
+
+or teacher, since 2000. Bill has taught classes, workshops and seminars in London, Frankfurt,
+
+and New York City, and at summer retreats with The Healing Tao in upstate NY. Bill has been
+
+awarded gold medals in a number of regional tournaments, and has appeared in numerous
+
+articles on Taoist arts in martial arts magazines.</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Bill Pagano</h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="https://lh3.googleusercontent.com/Zcr2g3BiJOOu9tLlj9B6npeIe830u4S0VmzkQwEWrpGGJ_KZ_5RMFN5lcjQYOzbPQ-g4dQBurDqnJxaEq9GfcbcmHliA3A-yLbOQwRmK-60pq3HyzGTlsSleebtpy3KQZDeCAKsw1GpHU07tC2WjZdedgmYoCN09H6ROuNxOU6wgPW0ZfYq4uNfVyLUS7FxpMzurgB8ZipuF0TAbDQULPjfYzyVyomBGfB8eyW7RRw6DHGEU1dwyaUUDepLnRaUKE60Fs_zXauDYbBdQCka4loofy4h7RWSnMm5jgWlCGPphy-uH8UWxH5V3cTc6I9VNBYNwN1sqau197rHVH02bMyZbKzc9Qevo5VtU1y1C1UWtC-SPej949jqCPPzJQwYynTCuVuGMqgaMHVXYporA9PvCAVAlqGJXcjR-Mwmxc-kRZkROQeSv10WwjwSwaXSBV-UCDMrEZ_oBXwLdYNzNYkXTjbcbM93AZlJ2FqQQmJXatEPFapPcMCeKCEEbWrQT6hB8TA09fLwfX7PhC4kTfvX3ImeslxSM7hMyzccgP3s=w899-h599-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Lilli Markle is a Yoga Alliance  Registered Yoga Teacher, Certified Thai Massage Therapist, and is 
+
+pursuing a certificate in Movement Analysis at the Laban/Bartenieff Institute for Movement Studies. 
+
+She has incorporated meditation into her personal practice for nearly 10 years, and in more recent years 
+
+she has integrated the myriad techniques and benefits of meditation into her wellness work. Lilli is 
+
+drawn to working with artists, helping to guide them to their intuitive space and discover their inner 
+
+muse, as well as with anyone working with anxiety, chronic stress, pain and injury, who is on their path 
+
+toward self-healing.</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Lilli Markle</h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+         <div class="container">
+        <div class="row">
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="htps://lh3.googleusercontent.com/wD3d3lSlGTRR4QxFR48XHOwUXdjfwXeVkMrEWo0oGYSWp7YG2_MmkSh3nlFOUzbcL65b78zkYRO0QjS_z_MYkm0NsxJIEDuEdUQrlTMn-NwZ_31888a9HlSlkHJ4ioFM6F4LU1FIMcqCCh32egQs299dznRyx_nz5zNMI6gSiVO24SMgMYM2DOL0kSKhRyetf4OJq4nj6JiaFGA9On4RlVL9goY_BQbmsVkiIhV0r-_uyOBmguO656czsGW4eOtl1AV5Uis4c4b8k1Lzg5Fq7bNzpW83bqljrfKGKUYTxwk4HpO-lCpTbh5qYyUf3oPa1OnetUn2tReBWRj2UZ8oekK4c99NDMyE9RfAHuErRxWOZgW6sy7KNUQ96dWK11tL2IsOvTjqUIxhNK4ByE-BmbCqZxelyDnZYzpdcb02A-eHGZNnDN7xFK9gyhiDvUfRB22xKQCDuTCmslt5_Zb0DPb0pBJBBjYWcPxxaeWtNW8S9tUQ3WcusgI6ME1FdQdMUpFZlkzKbjcV2U6kO1MNnxICbzrwZGgng9YW15MzSnM=w552-h599-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Joia is a professional mind­body fitness instructor, floral designer and the founder
+
+of The Meditation Advance. Her first experience with meditation happened quite
+
+by accident at age 4, but she has practiced "formally" ever since college. She is
+
+fascinated by all the recent scientific research on meditation and loves exploring
+
+different techniques to find what is most effective for different individuals. Joia
+
+holds a M.Phil. degree from NYU in English and American Literature, but she also
+
+pursued interdisciplinary research as a lab assistant in Neuroscience. Aesthetic
+
+Beauty + Biology ­­ that is her passion!</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4> Marie E. Patterson </h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="https://lh3.googleusercontent.com/06W6HRFh3_QGVLeLLzyopqBArW_7gJh57KQhShnBiTTAc58ZewPQhkQfGhwwaZxJAZYRHBiZvToPJGiVB-j-hAqPHIUIjcwX0GQaadQ1KI7Wp1tbfn7PQZbaR7Z_D5m94tQ0H9_g_jMgd6uS5kGHGCLelNsGB8levwRosULrm8M9BHF-qHN9T2nQ6B4DJBOAPCX0-8fWFmSabczyfCmgdYJ9dEYeYWWqFX69yRU7h2t0Q0XMuKffu6xnTCA-flx2sHPYbsF0AF9DZUJOZecvtskBICZEbH8L7XZsyUr17LDluX9SL3xBF2PLmUHB0OnGHedBaKrNWe86Dw_YXR_2cFJa_CBKJXuITEshYbUL3mvLUAMT2Ur8rNAFsRcrFEqrzlKsQkQVX48hpxoAqYI4KN5JRubbLRIZzEbUa_zfDIB-Yjop6H0kOPa9BK96HQ-yO1gAYI-8dMCvqUlYXgmyqsu5tciArdj7LfIu11BuiNtJ6bg_D9sAdvIcQUqWMq2aGBptEE-uhYarov6inlwDsDLNjsyPieqJchz1e0Qwxz0=w542-h599-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Monica is a somatic arts educator and personal trainer specializing in mind-body fitness.  She has over 
+
+10 years of teaching experience and is certified in chair yoga as well as perinatal fitness. Monica became 
+
+enthralled with meditation while pursuing a MA degree in Dance & Theatre Education in New Mexico. 
+
+Once she moved to New York City she began taking an in-depth training program in Ayurvedic holistic 
+
+health coaching. The effects on her own mental, physical, and emotional wellbeing were undeniable. 
+
+She continued to develop her meditation skills during the five years she spent teaching a Philosophy of 
+
+Aesthetics class to adolescents to help them balance the tumultuous ups and downs of their daily lives 
+
+while at the same time facilitating their self-confidence and creativity.</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Monica Snavely</h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+          <div class="col-md-4">
+            <div class="team-member">
+              <figure>
+                <img src="https://lh3.googleusercontent.com/sgR8lulZqLODWotd1L_Akee7oPH6B7hA6udY7MiuB263ajpeq5FLyxh3Eg_J7OCNmOneR9XygwMEvfnJ4_GoM3_0Mm06km7uY_Fk_syH6Lhz_xxcv-kY3WflW05dj-pzp2cAu-QJ0m3VhMYaOEJYCgDooxBxHKaG8R4rnBYZizya7zwg73cK7bRGDUfQT1_WGd-OoOOwnQztEdxwRSZDR98mYiYGlHeWRER4fz4e_gTXwSqZ4f1Ylx4jZYcuduVixyg4ZFtX_yJtDC6vBU4dcQpyNLiGbDbk4Q_02u1ysqwQ_inrs591ScztxvYyr_anRl51L7fiasFgd8p48oF56k1RJc8XpF6yGotFGlZiNV6yCJCBvRjKJzyPtq8L4nNn_ks-FwnZyopnEwBqLKKQ8y9hxBB6b34Pk_bNK3gSUpmQ3Ex7ifFA4KpBNh3gzDuCkYJgulVFVwVAyRTe9XxF4RBpmUjq9UY2isqiw4hclJCtybmlLDpPLOf3s7CGfDGjQCXR1rYG0CRI6m5YTFIEfG8USpcz5DLtdk3PRQHrD84=w296-h424-no" alt="" class="img-responsive">
+                <figcaption>
+                  <p>Raj is a biomedical engineer by training and meditator of 7 years by passion. His meditation style is that each person should find a meditation that aligns with their own nature. Meditation is a great way to explore our bodies and what we truly want in life, it just takes experimenting with different techniques to find the right one. He also uses meditation to help students reach their peak performance, in business, school, and sports. Raj’s expertise is in pranayama and mindfulness. Raj loves teaching meditation because he loves the look of relaxation on his students after a great meditation session. As a biomedical engineer he is very interested in the crossroads between mediation and scientific research. He loves to read research articles uncovering the underlying mechanisms of mediation has on our bodies. 
+</p>
+                  <ul>
+                    <li><a href=""><i class="fa fa-facebook fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-twitter fa-2x"></i></a></li>
+                    <li><a href=""><i class="fa fa-linkedin fa-2x"></i></a></li>
+                  </ul>
+                </figcaption>
+              </figure>
+              <h4>Raj Vansia</h4>
+              <p></p>
+            </div><!-- /.team-member-->
+          </div><!-- /.col-md-4 -->
+
+
+        </div><!-- /.row -->
+      </div><!-- /.container -->
+
+    </div><!-- /.row -->
+  </div><!-- /.container -->
+</section><!-- /.our-team -->
