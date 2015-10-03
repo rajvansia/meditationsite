@@ -1,0 +1,10 @@
+{
+  "applications": {
+    "_default": {
+      "link": "raj"
+    },
+    "raj": {
+      "applicationId": "83aicdJHcXiSfn9vzzVWAeqMkmIqfoUJVreaNTob"
+    }
+  }
+}
